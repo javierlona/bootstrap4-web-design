@@ -45,6 +45,7 @@ nav a:hover {
 }
 .button_1 {
   background: #e8491d;
+  color: #ffffff;
   border: 0;
 }
 .button_1:hover {
@@ -71,6 +72,12 @@ footer a:hover {
   color: #cccccc;
 }
 aside {
-  background-color: #35424a;
   color: #ffffff;
+}
+.services li {
+  margin: 4px 0;
+}
+.contact-us {
+  background-color: #35424a;
+  padding: 20px;
 }
