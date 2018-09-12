@@ -1,3 +1,10 @@
+:root {
+  --mainColor1: #35424a;
+  --mainColor2: #4eeb84;
+  --lightFont: #ffffff;
+  --darkFont: #cccccc;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -12,22 +19,22 @@ body {
   margin-bottom: 150px;
 }
 header {
-  background-color: #35424a;
-  color: #ffffff;
+  background-color: var(--mainColor1);
+  color: var(--lightFont);
   min-height: 100px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: var(--mainColor2) 3px solid;
 }
 header .highlight, .active {
-  color: #e8491d;
+  color: var(--mainColor2);
   font-weight: bold;
 }
 nav a {
-  color: #ffffff;
+  color: var(--lightFont);
   text-decoration: none;
   text-transform: uppercase;
 }
 nav a:hover {
-  color: #cccccc;
+  color: var(--darkFont);
   font-weight: bold;
 }
 .branding {
@@ -36,20 +43,20 @@ nav a:hover {
 .showcase {
   min-height: 400px;
   background: url('../img/showcase.jpg') no-repeat 0 -400px;
-  color: #ffffff;
+  color: var(--lightFont);
 }
 .newsletter {
-  background-color: #35424a;
-  color: #ffffff;
+  background-color: var(--mainColor1);
+  color: var(--lightFont);
   min-height: 90px;
 }
 .button_1 {
-  background: #e8491d;
-  color: #ffffff;
+  background: var(--mainColor2);
+  color: var(--lightFont);
   border: 0;
 }
 .button_1:hover {
-  background: #cccccc;
+  background: var(--darkFont);
 }
 .card-img-top {
   width: 90px;
@@ -59,21 +66,21 @@ iframe {
   height: 315px;
 }
 footer {
-  background-color: #e8491d;
-  color: #ffffff;
+  background-color: var(--mainColor2);
+  color: var(--lightFont);
   position: absolute;
   bottom: 0;
 }
 footer a {
-  color: #ffffff;
+  color: var(--lightFont);
   padding: 0 10px;
 }
 footer a:hover {
-  color: #cccccc;
+  color: var(--darkFont);
 }
 .what-we-do, .contact-us {
-  background-color: #35424a;
-  color: #ffffff;
+  background-color: var(--mainColor1);
+  color: var(--lightFont);
   padding: 20px;
 }
 .services li {
