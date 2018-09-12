@@ -1,10 +1,9 @@
 :root {
-  --mainColor1: #35424a;
-  --mainColor2: #4eeb84;
+  --mainColor1: #9e2431;
+  --mainColor2: #ead9a3;
   --lightFont: #ffffff;
   --darkFont: #cccccc;
 }
-
 html {
   position: relative;
   min-height: 100%;
@@ -12,7 +11,7 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 100%;
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
@@ -37,6 +36,23 @@ nav a:hover {
   color: var(--darkFont);
   font-weight: bold;
 }
+iframe {
+  width: 100%;
+  height: 315px;
+}
+footer {
+  background-color: var(--mainColor1);
+  color: var(--lightFont);
+  position: absolute;
+  bottom: 0;
+}
+footer a {
+  color: inherit;
+  padding: 0 10px;
+}
+footer a:hover {
+  color: var(--darkFont);
+}
 .branding {
   font-family: 'Krona One', sans-serif;
 }
@@ -51,32 +67,15 @@ nav a:hover {
   min-height: 90px;
 }
 .button_1 {
-  background: var(--mainColor2);
+  background-color: var(--mainColor2);
   color: var(--lightFont);
   border: 0;
 }
 .button_1:hover {
-  background: var(--darkFont);
+  background-color: var(--darkFont);
 }
 .card-img-top {
   width: 90px;
-}
-iframe {
-  width: 100%;
-  height: 315px;
-}
-footer {
-  background-color: var(--mainColor2);
-  color: var(--lightFont);
-  position: absolute;
-  bottom: 0;
-}
-footer a {
-  color: var(--lightFont);
-  padding: 0 10px;
-}
-footer a:hover {
-  color: var(--darkFont);
 }
 .what-we-do, .contact-us {
   background-color: var(--mainColor1);
@@ -86,8 +85,8 @@ footer a:hover {
 .services li {
   margin: 4px 0;
 }
-
 /* Media Queries */
+/* @ screens smaller equal or smaller than 767 */
 @media (max-width: 767px) {
   h1 {
     font-size: 2rem;
