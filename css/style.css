@@ -71,13 +71,11 @@ footer a {
 footer a:hover {
   color: #cccccc;
 }
-aside {
+.what-we-do, .contact-us {
+  background-color: #35424a;
   color: #ffffff;
+  padding: 20px;
 }
 .services li {
   margin: 4px 0;
-}
-.contact-us {
-  background-color: #35424a;
-  padding: 20px;
 }
