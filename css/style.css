@@ -14,7 +14,7 @@ body {
 header {
   background-color: #35424a;
   color: #ffffff;
-  min-height: 70px;
+  min-height: 100px;
   border-bottom: #e8491d 3px solid;
 }
 header .highlight, .active {
@@ -78,4 +78,14 @@ footer a:hover {
 }
 .services li {
   margin: 4px 0;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .nav {
+    float: right;
+  }
 }
