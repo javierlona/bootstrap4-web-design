@@ -70,3 +70,7 @@ footer a {
 footer a:hover {
   color: #cccccc;
 }
+aside {
+  background-color: #35424a;
+  color: #ffffff;
+}
